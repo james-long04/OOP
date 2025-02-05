@@ -1,0 +1,41 @@
+# Notes on Differences Between Python and Java Syntax
+
+1. **Variable Declaration:**
+   - Python: No explicit type declaration (e.g., x = 10).
+   - Java: Type must be declared (e.g., int x = 10).
+
+2. **Indentation and Blocks:**
+   - Python: Indentation defines code blocks.
+   - Java: Curly braces `{}` define code blocks.
+
+3. **Function Definition:**
+   - Python: Use `def` (e.g., def greet(name):).
+   - Java: Must declare return type (e.g., public void greet(String name)).
+
+4. **String Concatenation:**
+   - Python: Use `+` (e.g., full_name = first_name + " " + last_name).
+   - Java: Use `+` (e.g., String fullName = firstName + " " + lastName).
+
+5. **Exception Handling:**
+   - Python: `try` and `except` (e.g., try: ... except ValueError:).
+   - Java: `try`, `catch`, and optionally `finally` (e.g., try { ... } catch (Exception e) {...}).
+
+6. **Classes:**
+   - Python: Methods use `self` (e.g., def greet(self):).
+   - Java: No `self`, explicit type (e.g., public void greet()).
+
+7. **Loops:**
+   - Python: `for` with range or items (e.g., for i in range(5):).
+   - Java: `for` with index (e.g., for (int i = 0; i < 5; i++)).
+
+8. **Boolean Values:**
+   - Python: `True` and `False`.
+   - Java: `true` and `false`.
+
+9. **Importing Libraries:**
+   - Python: `import math`.
+   - Java: `import java.util.Scanner;`.
+
+10. **Semicolons:**
+    - Python: No semicolons needed.
+    - Java: Semicolons are required at the end of statements.
